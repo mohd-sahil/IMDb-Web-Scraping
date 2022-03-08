@@ -4,6 +4,7 @@ Scraping IMDb website using Beautiful Soup and Request Library
 <img src = "images/imdb-website.png" width = "1500">
 
 * Loading libraries
+    
     we start by importing Beautiful Soup and the Requests library
 
     Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work.
@@ -14,17 +15,20 @@ Scraping IMDb website using Beautiful Soup and Request Library
     <img src = "images/libraries.png" width = "1500">
 
 * Creating an Excel file
+    
     the result of the get request is stored in an Excel file
     <img src = "images/create excel.png" width = "1500">
 
 * Connecting to the website
+    
     using requests.get() method, we are getting the desired web-page and store in a variable named source
     now we will look for particular tags like **<td>** using a for loop which will iterate to all the movie information we stored in the variable
     <img src = "images/connect.png" width = "1500">
 
 
 * Saving results in the excel file
+
     finally the results will be stored in the excel file created above
-    <img src = "images/saving results.png" width = "1500">
+    <img src = "images/saving results.png" height = "1500">
     <img src = "images/saving results-excel.png" width = "700">
 
