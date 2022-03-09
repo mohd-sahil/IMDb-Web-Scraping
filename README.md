@@ -23,10 +23,12 @@ Scraping IMDb website using Beautiful Soup and Request Library
     
     using requests.get() method, we are getting the desired web-page and store in a variable named source
     now we will look for particular tags using a for loop which will iterate to all the movie information we stored in the variable
+    <img src = "images/connect.png" width = "300">
+    <img src = "images/connect-2.png" width = "300">
 
 
 * Saving results in the excel file
 
-    <img src = "images/saving results.png" width = "400">
+    <img src = "images/saving results.png" width = "300">
     <img src = "images/saving results-excel.png" width = "700">
 
