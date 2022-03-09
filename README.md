@@ -2,7 +2,7 @@
 Scraping IMDb website using Beautiful Soup and Request Library
 
 <img src = "images/imdb-website.png" width = "1500">
-
+<br>
 * Loading libraries
     
     we start by importing Beautiful Soup and the Requests library
@@ -13,21 +13,20 @@ Scraping IMDb website using Beautiful Soup and Request Library
     simple API so that you can focus on interacting with services and consuming data in your application.
 
     <img src = "images/libraries.png" width = "1500">
-
+    <br>
 * Creating an Excel file
     
     the result of the get request is stored in an Excel file
     <img src = "images/create excel.png" width = "1500">
-
+    <br>
 * Connecting to the website
     
     using requests.get() method, we are getting the desired web-page and store in a variable named source
     now we will look for particular tags using a for loop which will iterate to all the movie information we stored in the variable
 
     <img src = "images/connect.png" width = "700">
-    <img src = "images/connect-2.png" width = 700">
-
-
+    <img src = "images/connect-2.png" width = 600">
+    <br>
 * Saving results in the excel file
 
     <img src = "images/saving results.png" width = "400">
