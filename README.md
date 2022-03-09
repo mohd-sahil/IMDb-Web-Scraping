@@ -27,6 +27,8 @@ Scraping IMDb website using Beautiful Soup and Request Library
 
 
 * Saving results in the excel file
+
+    <img src = "images/saving results.png" width = "700">
     finally the results will be stored in the excel file created above
     <img src = "images/saving results-excel.png" width = "700">
 
