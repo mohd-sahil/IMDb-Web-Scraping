@@ -16,14 +16,14 @@
 * Creating an Excel file
     
     the result of the get request is stored in an Excel file<br>
-    <img src = "images/create excel.png" width = "1800">
+    <img src = "images/create excel.png" width = "600">
     <br>
 * Connecting to the website
     
     using requests.get() method, we are getting the desired web-page and store in a variable named source
     now we will look for particular tags using a for loop which will iterate to all the movie information we stored in the variable
 
-    <img src = "images/connect.png" width = "900">
+    <img src = "images/connect.png" width = "800">
     <img src = "images/connect-2.png" width = 700">
     <br>
 * Saving results in the excel file
