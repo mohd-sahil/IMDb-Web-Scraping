@@ -11,23 +11,23 @@
     **Requests library** is the de facto standard for making HTTP requests in Python. It abstracts the complexities of making requests behind a beautiful, 
     simple API so that you can focus on interacting with services and consuming data in your application.
 
-    <img src = "images/libraries.png" width = "1500">
+    <img src = "images/import lib.png" width = "400">
 
 * Creating an Excel file
     
     the result of the get request is stored in an Excel file<br>
-    <img src = "images/create excel.png" width = "1500">
+    <img src = "images/create excel.png" width = "1800">
     <br>
 * Connecting to the website
     
     using requests.get() method, we are getting the desired web-page and store in a variable named source
     now we will look for particular tags using a for loop which will iterate to all the movie information we stored in the variable
 
-    <img src = "images/connect.png" width = "700">
-    <img src = "images/connect-2.png" width = 500">
+    <img src = "images/connect.png" width = "900">
+    <img src = "images/connect-2.png" width = 700">
     <br>
 * Saving results in the excel file
     
-    <img src = "images/saving results.png" width = "300"><br>
+    <img src = "images/saving results.png" width = "400"><br>
     <img src = "images/saving results-excel.png" width = "700">
 
